@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.mPHbEtoCJhWrhHhke3gd1AHaEK?cb=12&pid=Api");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    margin-right: 20%;
+    background-color: #cabfbf34;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: clamp(24px, 5vw, 36px);
+    line-height: 1.15;
+    margin: 8px 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.primeirop {
+    color: #ffffff;
+    margin: 4px 0;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.segundop {
+    color: #ffffff;
+    margin: 4px 0;
+    display: flex;
+    margin-top: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.terceirop {
+    color: #ffffff;
+    margin: 4px 0;
+    margin-top: 25%;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.botao {
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 50px;
+    background-color: #1d1b1bb7;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cabfbf52;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.lupa {
+    height: 20px;
+}
+
+.container {
+    background-color: #0e0c0ca9;
+    padding: 25px;
+    height: 65%;
+    border-radius: 12px;
+    width: 95%;
+    max-width: 420px;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.subContainer {
+    background: transparent;
+    padding: 0;
+    border-radius: 10px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 360px) {
+    h2 {
+        white-space: normal;
+        text-wrap: balance;
+    }
+}
