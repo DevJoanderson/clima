@@ -5,7 +5,9 @@
 }
 
 body {
-    background-image: url("https://tse1.mm.bing.net/th/id/OIP.mPHbEtoCJhWrhHhke3gd1AHaEK?cb=12&pid=Api");
+    background-image:
+        linear-gradient(180deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .6)),
+        url("https://raw.githubusercontent.com/DevJoanderson/Search-Weather/main/assets/imagemBackgr.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +24,7 @@ input {
     padding: 10px;
     width: 60%;
     border-radius: 10px;
-    margin-right: 20%;
+    margin-left: -1%;
     background-color: #cabfbf34;
     color: #ffffff;
 }
@@ -58,7 +60,7 @@ h2 {
 .terceirop {
     color: #ffffff;
     margin: 4px 0;
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 20px;
     text-align: left;
 }
