@@ -50,7 +50,7 @@ h2 {
     color: #ffffff;
     margin: 4px 0;
     display: flex;
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 20px;
     text-align: left;
 }
@@ -58,7 +58,14 @@ h2 {
 .terceirop {
     color: #ffffff;
     margin: 4px 0;
-    margin-top: 25%;
+    margin-top: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.vento {
+    color: #ffffff;
+    margin: 4px 0;
     font-size: 20px;
     text-align: left;
 }
@@ -107,6 +114,11 @@ button:hover {
     gap: 10px;
     align-items: center;
     margin-bottom: 16px;
+}
+
+.conteiner-nuvem {
+    display: flex;
+    margin-top: 30px;
 }
 
 @media (max-width: 360px) {
